@@ -14,17 +14,15 @@ channel_sources:
 - conda-forge
 channel_targets:
 - conda-forge main
-expat:
-- '2'
 fontconfig:
 - '2'
 freetype:
 - '2'
 harfbuzz:
 - '10'
+libiconv:
+- '1'
 macos_machine:
 - x86_64-apple-darwin13.4.0
 target_platform:
 - osx-64
-zlib:
-- '1'
