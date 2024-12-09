@@ -34,7 +34,8 @@ requirements:
   run_exports:
     - ${{ pin_subpackage('libass', upper_bound='x.x.x') }}
   ignore_run_exports:
-    - expat
+    from_package:
+      - expat
 
 tests:
   - script:
