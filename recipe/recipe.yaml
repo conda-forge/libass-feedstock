@@ -28,7 +28,7 @@ requirements:
     - freetype
     - fribidi
     - fontconfig
-    - libexpat
+    - expat
     - libiconv
     # - zlib
     - harfbuzz
