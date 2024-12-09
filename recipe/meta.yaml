@@ -29,10 +29,10 @@ requirements:
     - freetype
     - fribidi
     - fontconfig
-    - expat
+    # - expat
+    - libiconv
     - zlib
-    - harfbuzz
-  run:
+    # - harfbuzz
 
 test:
   commands:
