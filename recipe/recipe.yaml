@@ -26,6 +26,7 @@ requirements:
     - nasm
   host:
     - freetype
+    - zlib
     - fribidi
     - fontconfig
     - expat
